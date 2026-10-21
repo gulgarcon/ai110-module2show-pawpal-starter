@@ -2,10 +2,22 @@
 
 ## 1. System Design
 
+For the following system, a user should be able to do the following:
+
+1. Add a pet to some database
+2. Individually track each pets attributes
+3. Log each walk with a pet
+4. Schedule set feeding times
+5. Log pet's medical and health information
+6. Summarize tasks needed for each pet for each day
+
 **a. Initial design**
 
 - Briefly describe your initial UML design.
 - What classes did you include, and what responsibilities did you assign to each?
+
+I have 4 main classes: Owner, Pet, Organizer, and Task. The organizer plans for the owner and schedules tasks. 
+The owner (of the pets) can add pets, retrieve information about their pets (either at once or all at once). The pet class includes specific attributes about the pet such as health information, species, tasks needed for completion, etc.
 
 **b. Design changes**
 
